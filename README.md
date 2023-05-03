@@ -12,6 +12,7 @@ xv6 운영체제 상에 새로운 스케줄러를 구현하는 프로젝트이�
 >4. weight는 프로세스 생성 순서에 따라 1부터 차례로 증가한다.
 >5. ptable에는 RUNNABLE한 프로세스 중 가장 낮은 priority를 저장하고 있는 멤버 변수가 존재한다.
 >6. 스케줄러는 priority가 가장 낮은 프로세스부터 수행한다.
+
 <br><br>
 
 ## Priority Scheduler Implementation
